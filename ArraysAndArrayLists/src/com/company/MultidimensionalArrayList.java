@@ -20,6 +20,6 @@ public class MultidimensionalArrayList {
             }
         }
 
-        System.out.println(list);
+//        System.out.println(list);
     }
 }
