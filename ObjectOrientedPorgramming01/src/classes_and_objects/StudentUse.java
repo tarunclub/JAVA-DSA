@@ -1,17 +1,14 @@
 package classes_and_objects;
 
+import java.util.Scanner;
+
 public class StudentUse {
     public static void main(String[] args) {
-        Student s1 = new Student("Tarun",123);
+        Student s1 = new Student("Tarun", 123);
+        Student s2 = new Student("Goku", 121);
+        Student s3 = new Student("Shinchan", 432);
         s1.print();
-
-        Student s2 = new Student("Shinchan", 223);
         s2.print();
-        System.out.println(Student.getNumStudents());
+        s3.print();
     }
 }
-
-/*
-* Within the same package, we don't have to write the import statement to import a class
-*
- */
